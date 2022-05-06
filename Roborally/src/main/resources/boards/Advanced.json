@@ -1,0 +1,435 @@
+{
+  "width": 16,
+  "height": 8,
+  "spaces": [
+    {
+      "walls": [
+      ],
+      "startpoint": true,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Gear",
+          "INSTANCE": {
+            "heading": "WEST"
+          }
+        }
+      ],
+      "x": 1,
+      "y": 0
+    },
+    {
+      "walls": [
+        "EAST"
+      ],
+
+      "x": 1,
+      "y": 1
+    },
+    {
+      "walls": [],
+      "x": 15,
+      "y": 7,
+      "startPoint": true
+    },
+    {
+      "walls": [],
+      "actions": [{
+        "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.RebootTokens",
+        "INSTANCE": {
+          "token": "NORTH"
+        }
+      }],
+      "x": 1,
+      "y": 3
+    },
+    {
+      "walls": [],
+      "x": 15,
+      "y": 0,
+      "startPoint": true
+    },
+    {
+      "walls": [],
+      "x": 1,
+      "y": 5,
+      "startPoint": true
+    },
+    {
+      "walls": [],
+      "actions": [{
+        "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Pit",
+        "INSTANCE": {
+          "pit": "WEST"
+        }
+      }],
+      "x": 1,
+      "y": 6
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Gear",
+          "INSTANCE": {
+            "heading": "EAST"
+          }
+        }
+      ],
+      "x": 2,
+      "y": 2
+    },
+    {
+      "walls": [
+        "SOUTH",
+        "NORTH"
+      ],
+      "actions": [
+      ],
+      "x": 3,
+      "y": 3
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Checkpoint",
+          "INSTANCE": {
+            "checkpoints": "1"
+          }
+        }
+      ],
+      "x": 4,
+      "y": 4
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.PushPanel",
+          "INSTANCE": {
+            "heading": "EAST"
+          }
+        }
+      ],
+      "x": 5,
+      "y": 5
+    },
+    {
+      "walls": [
+      ],
+
+      "x": 5,
+      "y": 1,
+      "startPoint": true
+    },
+    {
+      "walls": [
+        "EAST"
+      ],
+      "x": 7,
+      "y": 7
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Checkpoint",
+          "INSTANCE": {
+            "checkpoints": "2"
+          }
+        }
+      ],
+      "x": 7,
+      "y": 6
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "EAST",
+            "velocity": 1
+          }
+        }
+      ],
+      "x": 6,
+      "y": 0
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "EAST",
+            "velocity": 1
+          }
+        }
+      ],
+      "x": 7,
+      "y": 0
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "EAST",
+            "velocity": 1
+          }
+        }
+      ],
+      "x": 8,
+      "y": 0
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "SOUTH",
+            "velocity": 1
+          }
+        }
+      ],
+      "x": 9,
+      "y": 0
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "SOUTH",
+            "velocity": 1
+          }
+        }
+      ],
+      "x": 9,
+      "y": 1
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Checkpoint",
+          "INSTANCE": {
+            "checkpoints": 3
+          }
+        }
+      ],
+      "x": 10,
+      "y": 6
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.PushPanel",
+          "INSTANCE": {
+            "heading": "NORTH"
+          }
+        }
+      ],
+      "x": 10,
+      "y": 5
+    },
+    {
+      "walls": [],
+      "x": 0,
+      "y": 0,
+      "startPoint": true
+    },
+    {
+      "walls": [],
+      "x": 8,
+      "y": 3,
+      "startPoint": true
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Laser",
+          "INSTANCE": {
+            "heading": "SOUTH",
+            "laserStrength": 3,
+            "middle": false
+          }
+        }
+      ],
+      "x": 11,
+      "y": 0
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Laser",
+          "INSTANCE": {
+            "heading": "SOUTH",
+            "laserStrength": 3,
+            "middle": true
+          }
+        }
+      ],
+      "x": 11,
+      "y": 1
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Laser",
+          "INSTANCE": {
+            "heading": "NORTH",
+            "laserStrength": 3,
+            "middle": false
+          }
+        }
+      ],
+      "x": 11,
+      "y": 2
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Laser",
+          "INSTANCE": {
+            "heading": "EAST",
+            "laserStrength": 1,
+            "middle": false
+          }
+        }
+      ],
+      "x": 10,
+      "y": 4
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Laser",
+          "INSTANCE": {
+            "heading": "WEST",
+            "laserStrength": 1,
+            "middle": false
+          }
+        }
+      ],
+      "x": 11,
+      "y": 4
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Laser",
+          "INSTANCE": {
+            "heading": "EAST",
+            "laserStrength": 2,
+            "middle": false
+          }
+        }
+      ],
+      "x": 8,
+      "y": 1
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Laser",
+          "INSTANCE": {
+            "heading": "EAST",
+            "laserStrength": 2,
+            "middle": true
+          }
+        }
+      ],
+      "x": 9,
+      "y": 1
+    },
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Laser",
+          "INSTANCE": {
+            "heading": "WEST",
+            "laserStrength": 2,
+            "middle": false
+          }
+        }
+      ],
+      "x": 10,
+      "y": 1
+    },
+    {
+      "walls": [
+      ],
+      "antenna": true,
+      "x": 6,
+      "y": 7
+    },
+    {
+      "walls": [
+        "SOUTH",
+        "NORTH"
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.EnergyCube",
+          "INSTANCE": {
+            "energy": 7
+          }
+        }
+      ],
+      "x": 4,
+      "y": 2
+    },
+    {
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.EnergyCube",
+          "INSTANCE": {
+            "energy": 5
+          }
+        }
+      ],
+      "x": 14,
+      "y": 3
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "width": 8,
+  "height": 8,
+  "spaces": [
+    {
+      "walls": [
+      ],
+      "actions": [
+        {
+          "CLASSNAME": "dk.dtu.compute.se.pisd.roborally.model.Components.Checkpoint",
+          "INSTANCE": {
+            "checkpoints": "1"
+          }
+        }
+      ],
+      "x": 7,
+      "y": 6
+    },
+    {
+      "walls": [
+      ],
+      "antenna": true,
+      "x": 6,
+      "y": 7
+    }
+  ]
+}
